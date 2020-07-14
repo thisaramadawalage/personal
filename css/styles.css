@@ -1,0 +1,27 @@
+img {
+    max-width: 100%;
+    min-width: 20rem;
+    height: auto;
+}
+
+.welcome {
+    background-color: #442727;
+    color: whitesmoke;
+    text-align: center;
+    padding: 10% 0;
+} 
+
+.div-one {
+    background-color: #eae7d9;
+    text-align: center;
+    padding: 5% 2.5%;
+}
+
+.div-two {
+    background-color: #d2c6b2 ;
+    padding: 5% 2.5%;
+}
+
+.about-image, .about-text {
+    padding: 5%;
+}
