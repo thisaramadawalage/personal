@@ -1,6 +1,6 @@
 img {
-    max-width: 100%;
-    min-width: 20rem;
+    max-width: 75%;
+    /* min-width: 10rem; */
     height: auto;
 }
 
@@ -23,5 +23,6 @@ img {
 }
 
 .about-image, .about-text {
-    padding: 5%;
+    padding: 0 5%;
+    vertical-align: center;
 }
