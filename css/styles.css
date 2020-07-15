@@ -1,10 +1,11 @@
 img {
     max-width: 75%;
     /* min-width: 10rem; */
-    height: auto;
-    
+    height: auto;  
 }
-
+.container-fluid {
+    margin: 0;
+}
 .welcome {
     background-color: #442727;
     color: whitesmoke;
@@ -40,4 +41,22 @@ img {
 
 .projects {
     text-align: center;
+}
+
+#emailHelp {
+    text-align: left;
+}
+
+.socials {
+    text-align: center;
+    padding: 2.5rem 0;
+    background-color: #442727;
+}
+
+.text-muted{
+    padding: 0 2rem;
+}
+
+.social-icon {
+    padding: 0 .5rem;
 }
