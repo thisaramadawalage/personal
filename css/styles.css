@@ -2,14 +2,19 @@ img {
     max-width: 75%;
     /* min-width: 10rem; */
     height: auto;
+    
 }
 
 .welcome {
     background-color: #442727;
     color: whitesmoke;
     text-align: center;
-    padding: 10% 0;
+    /* padding: 10% 0; */
 } 
+
+.cv-btn {
+    margin: 2rem;
+}
 
 .div-one {
     background-color: #eae7d9;
@@ -22,7 +27,17 @@ img {
     padding: 5% 2.5%;
 }
 
-.about-image, .about-text {
-    padding: 0 5%;
-    vertical-align: center;
+.welcome-image{
+    padding: 5% 0;
+}
+
+.welcome-text {
+    padding: 12% 5% 0;
+}
+
+
+/* Projects section */
+
+.projects {
+    text-align: center;
 }

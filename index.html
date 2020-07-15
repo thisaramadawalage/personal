@@ -18,40 +18,134 @@
         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <!-- Bootstrap 4 CDN -->
     <link rel="stylesheet" href="./css/styles.css">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <!-- favicon link? -->
 </head>
 
 <body>
     <header>
         <div class="welcome container-fluid" id="welocme">
-            <h1>Thisara Madawalage</h1>
-            <h3>Developer</h3>
-            <button class="btn-lg">Download resume</button>
+            <div class="row">
+                <div class="welcome-text col-md-8">
+                    <h1>Thisara Madawalage</h1>
+                    <h3> Developer | Writer | Engineer(Ug)</h3>
+                    <button class="cv-btn btn-lg">Download resume</button>
+                </div>
+                <div class="welcome-image col-md-4">
+                    <img src="./images/thisara.png" alt="Thisara's photo">
+                </div>
+            </div>
         </div>
+
         <!-- End of the welcome section -->
     </header>
     <!-- End of the header -->
 
     <div class="about container-fluid div-one" id="about">
-        
+
         <div class=row>
-            <div class="about-text col-md-8">
+            <div class="about-text col-md-4">
                 <h1>About</h1>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolor aut nesciunt dicta, vero unde sed
-                    optio
-                    blanditiis. Temporibus velit molestiae obcaecati, eveniet voluptas, ullam iusto facilis ratione
-                    porro
-                    impedit voluptatem!</p>
             </div>
-            <div class="about-image col-md-4">
-                <img src="./images/thisara.png" alt="Thisara's photo">
+            <div class="about-text col-md-8">
+                <p>Enthusiastic and hardworking individual with an energetic personality, looking for an opportunity to
+                    utilize the theoretical knowledge gained through my course of study in creative and practical way
+                    while supporting the organization to achieve their business goals.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero veniam beatae, velit corrupti eos nobis
+                    voluptatum voluptas quisquam, repudiandae maxime suscipit aspernatur at delectus a fuga sit neque
+                    atque exercitationem?</p>
             </div>
+
         </div>
 
     </div>
     <!-- End of the about section -->
 
     <div class="projects container-fluid div-two" id="projects">
-        <h1>Projects</h1>
+        <div class="row">
+            <div class="col-md-4">
+                <h1>Projects</h1>
+            </div>
+            <div class="col-md-8">
+                <div class="accordion" id="accordionExample">
+                    <div class="card">
+                        <div class="card-header" id="headingOne">
+                            <h5 class="mb-0">
+                                <button class="btn btn-link" type="button" data-toggle="collapse"
+                                    data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                    Engineering Projects
+                                </button>
+                            </h5>
+                        </div>
+
+                        <div id="collapseOne" class="collapse show" aria-labelledby="headingOne"
+                            data-parent="#accordionExample">
+                            <div class="card-body">
+                                <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+                                    <div class="carousel-inner">
+                                      <div class="carousel-item active">
+                                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Pariatur quis impedit expedita! Sint incidunt ipsam sed ratione voluptates vel iste consequuntur maxime, atque dolores suscipit voluptate placeat, saepe aut fuga.</p>
+                                      </div>
+                                      <div class="carousel-item">
+                                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Pariatur quis impedit expedita! Sint incidunt ipsam sed ratione voluptates vel iste consequuntur maxime, atque dolores suscipit voluptate placeat, saepe aut fuga.</p>
+                                      </div>
+                                      <div class="carousel-item">
+                                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Pariatur quis impedit expedita! Sint incidunt ipsam sed ratione voluptates vel iste consequuntur maxime, atque dolores suscipit voluptate placeat, saepe aut fuga.</p>
+                                      </div>
+                                    </div>
+                                    <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                      <span class="sr-only">Previous</span>
+                                    </a>
+                                    <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                      <span class="sr-only">Next</span>
+                                    </a>
+                                  </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header" id="headingTwo">
+                            <h5 class="mb-0">
+                                <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
+                                    data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                    Development Projects
+                                </button>
+                            </h5>
+                        </div>
+                        <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo"
+                            data-parent="#accordionExample">
+                            <div class="card-body">
+                                <div id="carouselExampleControls-2" class="carousel slide" data-ride="carousel">
+                                    <div class="carousel-inner">
+                                      <div class="carousel-item active">
+                                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Pariatur quis impedit expedita! Sint incidunt ipsam sed ratione voluptates vel iste consequuntur maxime, atque dolores suscipit voluptate placeat, saepe aut fuga.</p>
+                                      </div>
+                                      <div class="carousel-item">
+                                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Pariatur quis impedit expedita! Sint incidunt ipsam sed ratione voluptates vel iste consequuntur maxime, atque dolores suscipit voluptate placeat, saepe aut fuga.</p>
+                                      </div>
+                                      <div class="carousel-item">
+                                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Pariatur quis impedit expedita! Sint incidunt ipsam sed ratione voluptates vel iste consequuntur maxime, atque dolores suscipit voluptate placeat, saepe aut fuga.</p>
+                                      </div>
+                                    </div>
+                                    <a class="carousel-control-prev" href="#carouselExampleControls-2" role="button" data-slide="prev">
+                                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                      <span class="sr-only">Previous</span>
+                                    </a>
+                                    <a class="carousel-control-next" href="#carouselExampleControls-2" role="button" data-slide="next">
+                                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                      <span class="sr-only">Next</span>
+                                    </a>
+                                  </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- <h1>Projects</h1>
         <div class="project">
             <h3>project name</h3>
             <p>Something about the project</p>
@@ -60,38 +154,75 @@
             <h3>project name</h3>
             <p>Something about the project</p>
         </div>
-    </div>
-    <!-- End of projects section -->
+    </div> -->
+        <!-- End of projects section -->
 
-    <footer>
-        <div class="contact container-fluid" id="contact">
-            <label for="">Your email</label>
-            <input type="text">
-            <label for="">Your message</label>
-            <textarea name="message" id="" cols="30" rows="10"></textarea>
+        <footer>
+            <!-- <div class="contact container-fluid" id="contact">
+                <label for="">Your email</label>
+                <input type="text">
+                <label for="">Your message</label>
+                <textarea name="message" id="" cols="30" rows="10"></textarea>
+            </div> --><footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-5 copyright">
+                    <p>
+                        Copyright &copy; 2020 YOUR NAME
+                    </p>
+                </div>
+                <div class="col-sm-2 top">
+                    <span id="to-top">
+                        <i class="fa fa-chevron-up" aria-hidden="true"></i>
+                    </span>
+                </div>
+                <div class="col-sm-5 social">
+                    <ul>
+                        <li>
+                            <a href="https://github.com/" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://stackoverflow.com/" target="_blank"><i class="fa fa-stack-overflow" aria-hidden="true"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://linkedin.com/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://twitter.com/" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://plus.google.com/" target="_blank"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </div>
-        <!-- End of contact section -->
-
-        <div class="socials container-fluid" id="socials">
-            <a href="facebook.com">facebook</a>
-            <a href="instagram.com">instagram</a>
-            <a href="linkedin.com">linkedin</a>
-        </div>
-        <!-- End of socials section -->
     </footer>
-    <!-- End of the footer -->
-    <!-- End of page -->
+            <!-- End of contact section -->
 
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
-    </script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
-        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
-    </script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
-        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
-    </script>
-    <!-- JavaScript for Bootstrap 4 -->
+            <!-- <div class="socials container-fluid" id="socials">
+                <a href="facebook.com">facebook</a>
+                <a href="instagram.com">instagram</a>
+                <a href="linkedin.com">linkedin</a>
+            </div> -->
+            <!-- End of socials section -->
+        </footer>
+        <!-- End of the footer -->
+        <!-- End of page -->
+
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+            integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
+        </script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+            integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
+        </script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+            integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
+        </script>
+        <!-- JavaScript for Bootstrap 4 -->
 </body>
 
 </html>
