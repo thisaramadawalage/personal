@@ -15,6 +15,9 @@ img {
 
 .cv-btn {
     margin: 2rem;
+    color: whitesmoke;
+    background-color: transparent;
+    border-radius: 40px;
 }
 
 .div-one {
@@ -53,10 +56,28 @@ img {
     background-color: #442727;
 }
 
-.text-muted{
-    padding: 0 2rem;
-}
-
 .social-icon {
     padding: 0 .5rem;
+    color: #fff
+}
+
+.skills-items li {
+    display: inline-block;
+    margin: 7px;
+    padding: 5px 10px;
+    background-color: #d2c6b2;
+}
+
+.copy-text {
+    display: inline-block;
+    color: #f5f5f5;
+}
+
+.title-text {
+    text-align: center;
+}
+
+.send-btn {
+    background-color: #eae7d9;
+    width: 100%;
 }
