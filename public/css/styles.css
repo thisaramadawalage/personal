@@ -65,7 +65,8 @@ img {
     display: inline-block;
     margin: 7px;
     padding: 5px 10px;
-    background-color: #d2c6b2;
+    /* background-color: #d2c6b2; */
+    background-color:#eae7d9 ;
 }
 
 .copy-text {
@@ -78,6 +79,7 @@ img {
 }
 
 .send-btn {
-    background-color: #eae7d9;
+    /* background-color: #eae7d9; */
+    background-color: #d2c6b2 ;
     width: 100%;
 }
