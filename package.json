@@ -1,0 +1,26 @@
+{
+  "name": "personal-website",
+  "version": "1.0.0",
+  "description": "My personal website's initial server setup.",
+  "main": "server.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thisaramadawalage/personal.git"
+  },
+  "author": "Thisara Madawalage",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thisaramadawalage/personal/issues"
+  },
+  "homepage": "https://github.com/thisaramadawalage/personal#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
