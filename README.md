@@ -12,3 +12,6 @@
 - Email form not working properly
 - Edit the content of the page so it would make sense
 - Add icons to the page
+
+
+Fix the email form
